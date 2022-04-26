@@ -12,6 +12,7 @@ To run the code, Python must be installed (Python 3.8.9).
 Below are requiements in requiements.txt that need to be installed before running the code:
 Flask==2.0.1
 a virturl enviornment is also created 
+
 RUNNING THE SCRIPT
 ---------------------
 1. Create a virtual enviornment, in the terminal, run:
