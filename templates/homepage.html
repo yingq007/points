@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html>
+  <head>Ready to spend some points?</head><br>
+  <body>
+    <h1>Add Points</h1>
+    <p>
+    
+        <form action="/add_points" method="POST">
+          Payer<input type="text" name ="payer" required="required"><br>
+          Points<input type="number" name="points" required="required"><br>
+          Timestamp e.g. 2020-10-31T10:00:00 <input type="datetime-local" name="timestamp" required="required"><br>
+          <button id="add_points" type="submit">submit</button>
+        </form>
+      </p>
+    <h2>Spend Points</h2>
+      <form action="/spend_points" method="POST">
+        Points<input type="number" name="points" required="required"><br>
+        <button id="spend_points" type="submit">submit</button>
+      </form>
+    <h3>Show Balance</h3>
+    <form action="/show_balance" method="POST"><br>
+    <button id="show_balance" type="submit">Show Balance</button>
+   
+  </body>
+</html>
